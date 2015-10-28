@@ -1,0 +1,83 @@
+                           --------------BLACK JACK PSEUDO CODE AND INFORMATION--------------
+
+What is blackjack?        What are the rules to play?
+
+Blackjack is pretty simple. The basic premise of the game is that you want to have a hand value that is closer to 21 than that of the dealer, without going over 21. Other players at the table are of no concern. Your hand competes only against the hand of the dealer. The rules of play for the dealer are strictly dictated, leaving no decisions up to the dealer. Therefore, there is no problem with the dealer or any of the other players at the table seeing the cards in your hand. In fact, if you’re playing at a shoe game, the player cards are all dealt face up.
+
+In blackjack, the cards are valued as follows:
+An Ace can count as either 1 or 11, as explained below.
+The cards from 2 through 9 are valued at their face value.
+The 10, Jack, Queen, and King are all valued at 10.
+
+The suits of the cards do not have any meaning in the game. The value of a hand is simply the sum of the point counts of each card in the hand.	Any hand that goes over 21 “breaks”, or is “busted”, and is an automatic loser.
+The Ace adds a new twist…    An Ace can be counted as either 1 or 11. You need not specify which value the Ace has. It is assumed to have the value that makes the best hand, and that may change as more cards are added to the hand.
+
+EXAMPLE:  We have a ace and a six.This hand is valued at 7 or 17, also known as a “soft” 17. A soft hand is any hand where an Ace can be counted as either 1 or 11 without going over 21. The name reflects the fact that the hand can’t break if you draw another card. It’s “soft” .If another card is drawn say (a king) then our hand is 17, since 1 + 6 + 10 = 17. We no longer have the option to count the Ace as 11, because that would go over 21. (This hand is now a hard 17, despite having an ace in it. )Let's backup and draw a different card instead : (say 3).Now our hand is “10 or 20”, a soft 20. Twenty is a great hand, so we would stop there.
+
+
+The dealer will first flip over the “hole card” to reveal his two-card starting hand. The dealer is then required to play his hand in a very specific way, with no choices allowed. He must draw cards until he has a total of 17 or more. The dealer has no choice in how to play the hand. He must continue taking cards until his total is at least 17. If the dealer has an ace, a five, a seven and a six then after flipping over the hole card, the dealer’s hand was (Ace, 5). That makes a hand value of 16, so he must draw another card.He drew a 7, making the hand value 13 (the Ace can no longer be counted as 11). With a total of 13, he must hit again.He drew a 6, making the hand total 19. Since that is “17 or more”, the dealer stops with a final total of 19.
+
+ 				----WINS AND  LOSES-----
+
+If you draw a card that makes your hand total go over 21, your hand is a bust. That is an automatic loser. The dealer will immediately collect your bet, and discard your hand.Assuming you did not bust, the dealer will play out his hand at the end. If he busts by going over 21, all the remaining players win their bets. If neither you nor the dealer busted, now the dealer will compare his final total to yours. If his total is higher than yours, you lose the bet, and he will collect your bet and put the chips in his tray. If your total is higher than his, you win the bet, and he will pay the entire amount you have bet. After he pays you, you’ll have your initial bet plus the amount you won in the circle. So, what happens if you and the dealer tie, with the same exact total? Nothing at all. A tie is called a “push”, and you do not win or lose your bet. Your chips stay in the betting circle where you can leave them for the next hand if you want, or you can add to or remove from them as you wish before the next hand.
+
+		--------HITTING STAND DOUBLE AND SPLIT-------
+HIT AND STAND:
+The most common decision a player must make during the game is whether to draw another card to the hand (“hit”), or stop at the current total (“stand”).If you go over 21, or “bust”, the dealer will collect your bet and remove your cards from the table immediately.
+
+DOUBLE:
+Much of the excitement and profit in blackjack comes from hands where you are able to “double down”. This option is available only with a two card hand, before another card has been drawn. Doubling down allows you to double your bet and receive one (and only one) additional card to your hand.A good example of a doubling opportunity is when you hold a total of 11, like a (6,5) against a dealer’s upcard of 5. In this case, you have a good chance of winning the hand by drawing one additional card, so you should increase your bet in this advantageous situation by doubling down.If you are playing in a hand-held game, just toss your original two cards face-up on the table in front of your bet.In either type of game, add an additional bet to the betting circle. Place the additional bet adjacent to the original bet, not on top of it.The dealer will deal one additional card to the hand. In a shoe game, he will probably deal the card sideways to indicate that this was a double-down. In a hand-held game, the card will be tucked face-down under your bet to be revealed after the hand is over. Depending on what the dealer makes on his hand, it can be an exciting wait to see that card revealed at the end.
+
+SPLIT:				
+When you are dealt a pair of cards of the same rank, you are allowed to split the pair into two separate hands and play them independently. Let’s say you are dealt a pair of eights for a total of sixteen. Sixteen is the worst possible player hand, since it is unlikely to win as is, but is very likely to bust if you draw to it. Here’s a great chance to improve a bad situation.If you are playing a hand-held game, toss the cards face-up in front of your bet just like a double down. Then, in either type of game, place a matching bet beside the original bet in the circle. Note that you must bet the same amount on a split, unlike a double-down where you are allowed to double for less. The dealer will separate the two cards, and treat them as two independent hands. He will deal a second card on the first eight, and you will play that two-card hand to completion.
+
+
+
+
+			---------PSEUDO CODE-----------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
